@@ -1,0 +1,14 @@
+.MenuItem {
+    list-style: none;
+    margin-right: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #535C67;
+}
+
+.MenuItem:nth-child(3){
+    margin-right: 35px;
+}
