@@ -1,0 +1,23 @@
+.SignNCart {
+    display: flex;
+    margin-left: auto;
+}
+
+.SignNCart span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.SignIn, .Cart {
+    display: flex;
+    align-items: center;
+}
+
+.Cart {
+    margin-left: 24px;
+}
