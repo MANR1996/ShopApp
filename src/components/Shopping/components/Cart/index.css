@@ -1,6 +1,8 @@
 .Shopping .Cart {
     display: block;
     margin: 0;
+    margin-right: 8px;
+    width: 74.576%;
     text-align: left;
 }
 .Shopping .Cart ul{
@@ -22,4 +24,10 @@
     color: #6B737C;
     font-weight: 400;
     font-size: 18px;
+}
+
+@media (max-width:1650px) and (min-width:1550px) {
+    .Shopping .Cart{
+        width: 1056px;
+    }
 }

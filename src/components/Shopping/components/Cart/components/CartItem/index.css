@@ -4,7 +4,6 @@
 
 .CartItem{
     display: flex;
-    width: 74.576%;
     padding: 24px 0;
     border-bottom: 1px solid #CED0D3;
 }
@@ -127,10 +126,4 @@ span.list-point {
 
 #root > div > div.Shopping > div.Cart > ul > li:nth-child(1) > div > div.Product-description > div.Product-pack > ul > li::marker{
     margin-right: 6px;
-}
-
-@media (max-width:1650px) and (min-width:1550px) {
-    .CartItem{
-        width: 1056px;
-    }
 }

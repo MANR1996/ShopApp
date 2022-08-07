@@ -1,6 +1,5 @@
 .OrderSummary {
-    margin-left: 24px;
-    width: 100%;
+    margin-left: auto;
 }
 
 .OrderSummary .title {
