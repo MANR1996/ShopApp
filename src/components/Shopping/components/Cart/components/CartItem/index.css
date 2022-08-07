@@ -1,0 +1,136 @@
+.Shopping .Cart ul li {
+    list-style: none;
+}
+
+.CartItem{
+    display: flex;
+    width: 74.576%;
+    padding: 24px 0;
+    border-bottom: 1px solid #CED0D3;
+}
+
+.CartItem .Product-photo{
+    width: 120px;
+}
+
+.pack-mark {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    color: #848A92;
+    background: #E6E8E9;
+    padding: 2px 4px;
+    width: fit-content;
+    margin: 8px auto 0;
+}
+
+.CartItem .Product-description {
+    width: auto;
+    height: auto;
+    margin-left: 16px;
+}
+
+.CartItem .Product-price {
+    width: auto;
+    height: auto;
+    margin-left:auto;
+    text-align: right;
+}
+
+.Product-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #091625;
+    margin-bottom: 12px;
+}
+
+.Product-qty {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #091625;
+    margin-bottom: 16px;
+}
+
+.Product-pack {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #091625;
+    margin-bottom: 22px;
+    margin-left: 6px;
+}
+
+.Product-pack span.product-description {
+    color: #90959B;
+}
+
+span.list-point {
+    margin-right: 6px;
+}
+
+.actions-pack, .actions-single {
+    display: flex;
+}
+
+.actions-edit {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #091625;
+    padding-right: 8px;
+    border-right: 1px solid gray;
+}
+
+.actions-remove {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #091625;
+    margin-left: 8px;
+}
+
+.unit-price {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: right;
+    color: #091625;
+    margin-top: 3px;
+}
+
+.total-price {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: right;
+    color: #091625;
+    margin-top: 12px;
+}
+
+#root > div > div.Shopping > div.Cart > ul > li:nth-child(1) > div > div.Product-description > div.Product-pack > ul > li::marker{
+    margin-right: 6px;
+}
+
+@media (max-width:1650px) and (min-width:1550px) {
+    .CartItem{
+        width: 1056px;
+    }
+}
