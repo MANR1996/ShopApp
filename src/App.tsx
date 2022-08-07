@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import Menu from './components/Menu'
 import Shopping from './components/Shopping'
+import AlsoLike from './components/AlsoLike'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Menu />
       <Shopping />
+      <AlsoLike />
     </div>
   );
 }
