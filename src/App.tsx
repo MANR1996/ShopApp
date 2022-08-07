@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Menu from './components/Menu'
 import Shopping from './components/Shopping'
 import AlsoLike from './components/AlsoLike'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Menu />
       <Shopping />
       <AlsoLike />
+      <Footer />
     </div>
   );
 }

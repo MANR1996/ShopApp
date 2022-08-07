@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-import Logo from './components/Logo'
+import Logo from '../atoms/Logo'
 import Search from './components/Search'
 import SignNCart from './components/SignNCart'
 

@@ -1,0 +1,136 @@
+.Footer {
+    background: #E6E8E9;
+    padding: 80px 92px 76px;
+}
+
+.first-row,
+.second-row {
+    display: flex;
+}
+
+.first-row {
+    place-content: space-between;
+    padding-right: 239px;
+}
+
+.second-row {
+    margin-top: 112px;
+}
+
+.contact-us {
+    max-width: 264px;
+}
+
+.contact-us p {
+    margin: 24px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6B737C;
+    text-align: left;
+}
+
+.phone {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.phone span {
+    margin-left: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #091625;
+}
+
+.social-media {
+    text-align: left;
+}
+
+.social-media a{
+    margin-right: 8px;
+}
+
+.our-company .title,
+.help .title,
+.information .title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091625;
+    margin-bottom: 24px;
+}
+
+.our-company .items a,
+.help .items a,
+.information .items a {
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3A4451;
+    margin-bottom: 24px;
+    text-align: left;
+    text-decoration: none;
+    cursor: unset;
+}
+
+.our-company .items a:last-child,
+.help .items a:last-child,
+.information .items a:last-child {
+    margin-bottom: 0;
+}
+
+.rights {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #535C67;
+}
+
+.region-language {
+    margin-left: auto;
+    display: flex;
+}
+
+.region,
+.language {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #535C67;
+}
+
+.region span,
+.language span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #091625;
+    margin-left: 8px;
+}
+
+.region span svg{
+    margin-right: 4px;
+}
+
+.language {
+    margin-left: 32px;
+}
