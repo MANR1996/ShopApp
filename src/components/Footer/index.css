@@ -1,4 +1,4 @@
-.Footer {
+.footer {
     background: #E6E8E9;
     padding: 80px 92px 76px;
 }
@@ -170,7 +170,7 @@
         flex-wrap: wrap;
     }
 
-    .Footer {
+    .footer {
         padding: 80px 45px 76px;
     }
 }

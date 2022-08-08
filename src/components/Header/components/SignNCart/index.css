@@ -1,9 +1,9 @@
-.SignNCart {
+.sign-cart {
     display: flex;
     margin-left: auto;
 }
 
-.SignNCart span {
+.sign-cart span {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -13,8 +13,8 @@
     margin-left: 12px;
 }
 
-.SignNCart .SignIn,
-.SignNCart .Cart {
+.sign-cart .sign-in,
+.sign-cart .cart {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -22,7 +22,7 @@
 }
 
 @media (max-width:1000px) {
-    .SignNCart {
+    .sign-cart {
         margin-top: 24px;
         margin-left: auto;
         margin-right: auto;

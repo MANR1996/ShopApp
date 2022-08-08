@@ -1,16 +1,16 @@
-.Shopping .Cart {
+.shopping .cart {
     display: block;
     margin: 0;
     margin-right: 8px;
     width: 74.576%;
     text-align: left;
 }
-.Shopping .Cart ul{
+.shopping .cart ul{
     margin: 0;
     padding: 0;
 }
 
-.Shopping .Cart .title {
+.shopping .cart .title {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -20,19 +20,29 @@
     margin-bottom: 16px;
 }
 
-.Shopping .Cart .title span{
+.shopping .cart .title span{
     color: #6B737C;
     font-weight: 400;
     font-size: 18px;
 }
 
+.empty-cart {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #091625;
+    margin-top: 32px;
+}
+
 @media (max-width:1650px) and (min-width:1550px) {
-    .Shopping .Cart{
+    .shopping .cart{
         width: 1056px;
     }
 }
 @media (max-width:1100px) {
-    .Shopping .Cart {
+    .shopping .cart {
         width: 100%;
     }
 }

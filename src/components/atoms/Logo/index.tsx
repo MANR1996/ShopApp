@@ -3,7 +3,7 @@ import './index.css';
 
 function Logo() {
     return (
-        <div className="Logo">
+        <div className='logo'>
             Logo
         </div>
     );

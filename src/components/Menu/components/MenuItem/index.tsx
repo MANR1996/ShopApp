@@ -9,9 +9,9 @@ type MyProps = {
 function MenuItem({ item, key }: MyProps) {
 
     return (
-        <li className="MenuItem" key={key}>
+        <a href='#' className="menu-item" key={key}>
             {item}
-        </li>
+        </a>
     );
 }
 

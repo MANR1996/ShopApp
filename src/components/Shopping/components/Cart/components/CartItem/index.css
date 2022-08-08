@@ -1,4 +1,4 @@
-.Shopping .Cart ul li {
+.shopping .cart ul li {
     list-style: none;
 }
 
@@ -99,26 +99,29 @@ span.list-point {
 }
 
 .actions-edit {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    color: #091625;
-    padding-right: 8px;
-    border-right: 1px solid gray;
-    cursor: pointer;
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    color: #091625 !important;
+    padding: 0 9px 0 0 !important;
+    border-color: #9CA2A8 !important;
+    cursor: pointer !important;
+    height: 16px;
+    text-transform: unset !important;
 }
 
 .actions-remove {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    color: #091625;
-    margin-left: 8px;
-    cursor: pointer;
+    text-transform: unset !important;
+    font-family: 'Open Sans' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    color: #091625 !important;
+    padding: 0 0 0 9px !important;
+    cursor: pointer !important;
 }
 
 .unit-price {
@@ -143,6 +146,6 @@ span.list-point {
     margin-top: 12px;
 }
 
-#root > div > div.Shopping > div.Cart > ul > li:nth-child(1) > div > div.Product-description > div.Product-pack > ul > li::marker{
+#root > div > div.shopping > div.cart > ul > li:nth-child(1) > div > div.Product-description > div.Product-pack > ul > li::marker{
     margin-right: 6px;
 }

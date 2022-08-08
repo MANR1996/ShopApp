@@ -1,4 +1,4 @@
-.MenuItem {
+.menu-item {
     list-style: none;
     margin-right: 24px;
     font-family: 'Open Sans';
@@ -12,8 +12,9 @@
     align-items: center;
     cursor: pointer;
     min-height: 64px;
+    text-decoration: unset;
 }
 
-.MenuItem:nth-child(3){
+.menu-item:nth-child(3){
     margin-right: 35px;
 }

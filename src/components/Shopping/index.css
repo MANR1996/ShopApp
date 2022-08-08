@@ -1,10 +1,10 @@
-.Shopping{
+.shopping{
     padding: 32px 92px 0;
     display: flex;
 }
 
 @media (max-width:1100px) {
-    .Shopping{
+    .shopping{
         display: block;
         padding: 32px 45px 0;
     }

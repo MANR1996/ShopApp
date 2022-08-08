@@ -12,18 +12,18 @@ type MyProps = {
 
 function CartItem({ item }: MyProps) {
     return (
-        <div className="item-cart">
-            <div className="item-photo">
+        <div className='item-cart'>
+            <div className='item-photo'>
                 <img width='336px' height='336px' src={item.photo} alt={item.name + '-photo'} />
             </div>
-            <div className="item-name">
+            <div className='item-name'>
                 {item.name}
             </div>
-            <div className="item-price-qty">
-                <div className="item-price">
+            <div className='item-price-qty'>
+                <div className='item-price'>
                     {item.priceRange}
                 </div>
-                <div className="item-qty">
+                <div className='item-qty'>
                     Minimum: <span>{item.mnmQty}</span>
                 </div>
             </div>

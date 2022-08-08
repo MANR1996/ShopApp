@@ -44,27 +44,27 @@ function Shopping() {
         },
     ]);
 
-    function editQty(itemName:string,event:any) {
-        let newState=Object.create(cartItems);
-        newState.filter((cartItem: { name: string; })=>cartItem.name===itemName)[0].qty=event.target.value;
+    function editQty(itemName: string, event: any) {
+        let newState = Object.create(cartItems);
+        newState.filter((cartItem: { name: string; }) => cartItem.name === itemName)[0].qty = event.target.value;
         setCartItems(newState);
     }
 
-    function removeItem(itemName:string) {
-        let newState=cartItems.filter((cartItem: { name: string; })=>cartItem.name!==itemName);
+    function removeItem(itemName: string) {
+        let newState = cartItems.filter((cartItem: { name: string; }) => cartItem.name !== itemName);
         setCartItems(newState);
     }
 
     function totalPrice() {
         let total = 0;
         cartItems.map(item => {
-            total=total+item.price*item.qty;
+            total = total + item.price * item.qty;
         });
         return total
     }
 
     return (
-        <div className="Shopping">
+        <div className='shopping'>
             <Cart cartItems={cartItems} editQty={editQty} removeItem={removeItem} />
             <OrderSummary totalPrice={totalPrice()} itemsQty={cartItems.length} />
         </div>

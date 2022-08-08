@@ -32,11 +32,11 @@ const cartItmes = [
 
 function AlsoLike() {
     return (
-        <div className="AlsoLike">
-            <div className="title">
+        <div className='also-like'>
+            <div className='title'>
                 You might also like
             </div>
-            <div className="also-like-cart">
+            <div className='also-like-cart'>
                 {cartItmes.map(item => (<CartItem item={item} />))}
             </div>
         </div>
