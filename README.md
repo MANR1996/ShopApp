@@ -1,3 +1,6 @@
+# Note
+I considered the images of the products as a design error and assigned to each product the image that corresponded to my understanding
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
