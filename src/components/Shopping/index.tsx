@@ -3,6 +3,9 @@ import './index.css';
 import OrderSummary from './components/OrderSummary';
 import Cart from './components/Cart';
 import BlankPhoto from './resources/images/Photo.png';
+import TShirt from './resources/images/image 4.png';
+import Boxes from './resources/images/image 9.png';
+import Bottle from './resources/images/image 10.png';
 import All from './resources/images/All.png';
 
 function Shopping() {
@@ -26,21 +29,21 @@ function Shopping() {
                     description: '(Blue)'
                 }
             ],
-            photo: All
+            photo: Boxes
         },
         {
             name: 'Basic T-Shirt',
             qty: 10,
             price: 13.50,
             pack: [],
-            photo: BlankPhoto
+            photo: TShirt
         },
         {
             name: 'Woman bottle',
             qty: 20,
             price: 36.50,
             pack: [],
-            photo: BlankPhoto
+            photo: Bottle
         },
     ]);
 
