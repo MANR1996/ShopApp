@@ -3,13 +3,12 @@ import './index.css';
 
 type MyProps = {
     item: string;
-    key: number;
 }
 
-function MenuItem({ item, key }: MyProps) {
+function MenuItem({ item }: MyProps) {
 
     return (
-        <a href='#' className="menu-item" key={key}>
+        <a href='/' className="menu-item">
             {item}
         </a>
     );

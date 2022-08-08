@@ -8,25 +8,25 @@ const cartItmes = [
         name: 'Unisex Short Sleeve T-Shirt',
         priceRange: '$10 - $24',
         mnmQty: 24,
-        photo: BlankPhoto
+        image: BlankPhoto
     },
     {
         name: 'Unisex Short Sleeve T-Shirt',
         priceRange: '$10 - $24',
         mnmQty: 24,
-        photo: BlankPhoto
+        image: BlankPhoto
     },
     {
         name: 'Unisex Short Sleeve T-Shirt',
         priceRange: '$10 - $24',
         mnmQty: 24,
-        photo: BlankPhoto
+        image: BlankPhoto
     },
     {
         name: 'Unisex Short Sleeve T-Shirt',
         priceRange: '$10 - $24',
         mnmQty: 24,
-        photo: BlankPhoto
+        image: BlankPhoto
     },
 ]
 
@@ -37,7 +37,7 @@ function AlsoLike() {
                 You might also like
             </div>
             <div className='also-like-cart'>
-                {cartItmes.map(item => (<CartItem item={item} />))}
+                {cartItmes.map((item,index) => (<CartItem item={item} key={index} />))}
             </div>
         </div>
     );

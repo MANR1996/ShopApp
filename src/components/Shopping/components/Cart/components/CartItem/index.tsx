@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 
 type MyProps = {
-    item: { qty: number; price: number; name: string; photo: string; pack: { name: string; description: string; }[] };
+    item: { qty: number; price: number; name: string; image: string; pack: { name: string; description: string; }[] };
     editQty: (itemName: string, event: any) => void;
     removeItem: (itemName: string) => void;
 }
@@ -14,11 +14,10 @@ function CartItem({ item, editQty, removeItem }: MyProps) {
     return (
         <li key={item.name}>
             <div className='cart-item'>
-                <div className='product-photo'>
-                    <div className='photo-content'>
-                        <img src={item.photo} alt={item.name + '-photo'} />
+                <div className='product-image'>
+                    <div className='image-content'>
+                        <img src={item.image} alt={item.name + '-image'} />
                     </div>
-                    {/* <img width='120px' height='120px' src={item.photo} alt={item.name + '-photo'} /> */}
                     {item.pack.length > 0 && (
                         <div className='pack-mark'>PACK</div>
                     )}
@@ -35,7 +34,12 @@ function CartItem({ item, editQty, removeItem }: MyProps) {
                         </select></div>
                     <div className='product-pack'>
                         <ul>
-                            {item.pack.map((i: { name: string; description: string; }) => (<li><span className='list-point'>•</span>{i.name} <span className='product-description'>{i.description}</span></li>))}
+                            {item.pack.map((i: { name: string; description: string; }, index) => (
+                                <li key={index}>
+                                    <span className='list-point'>•</span>{i.name}
+                                    <span className='product-description'>{i.description}</span>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                     <div className='product-actions'>

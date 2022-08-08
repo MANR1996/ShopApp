@@ -17,28 +17,28 @@ function Footer() {
                 <div className='our-company'>
                     <div className='title'>Our company</div>
                     <nav className='items'>
-                        <a href=''>About us</a>
-                        <a href=''>FAQ</a>
-                        <a href=''>Partnerships</a>
-                        <a href=''>Sustainability</a>
-                        <a href=''>Blog</a>
+                        <a href='/'>About us</a>
+                        <a href='/'>FAQ</a>
+                        <a href='/'>Partnerships</a>
+                        <a href='/'>Sustainability</a>
+                        <a href='/'>Blog</a>
                     </nav>
                 </div>
                 <div className='help'>
                     <div className='title'>How can we help</div>
                     <nav className='items'>
-                        <a href=''>Place a ticket</a>
-                        <a href=''>Track your order</a>
-                        <a href=''>Help center</a>
+                        <a href='/'>Place a ticket</a>
+                        <a href='/'>Track your order</a>
+                        <a href='/'>Help center</a>
                     </nav>
                 </div>
                 <div className='information'>
                     <div className='title'>Information</div>
                     <nav className='items'>
-                        <a href=''>Contact us</a>
-                        <a href=''>Live chat</a>
-                        <a href=''>Privacy</a>
-                        <a href=''>Terms of use</a>
+                        <a href='/'>Contact us</a>
+                        <a href='/'>Live chat</a>
+                        <a href='/'>Privacy</a>
+                        <a href='/'>Terms of use</a>
                     </nav>
                 </div>
             </div>

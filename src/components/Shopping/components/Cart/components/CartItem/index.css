@@ -8,19 +8,19 @@
     border-bottom: 1px solid #CED0D3;
 }
 
-.cart-item .product-photo{
+.cart-item .product-image{
     width: 120px;
 }
 
-.photo-content {
+.image-content {
     width: 120px;
     height: 120px;
-    /* text-align: center; */
     display: flex;
     justify-content: center;
+    background: #E6E8E9;
 }
 
-.photo-content img {
+.image-content img {
     max-width: 120px;
     max-height: 120px;
     object-fit: none;
