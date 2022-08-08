@@ -19,3 +19,9 @@
     place-content: space-between;
     flex-wrap: wrap;
 }
+
+@media (max-width:1100px) {
+    .AlsoLike {
+        padding: 0 45px 120px;
+    }
+}

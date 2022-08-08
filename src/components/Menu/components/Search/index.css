@@ -39,18 +39,3 @@
 .Search-Input:focus-visible {
     outline: unset;
 }
-
-@media (max-width:1000px) {
-    .Search {
-        margin-top: 0;
-        margin-left: 0;
-    }
-}
-
-@media (max-width:957px) {
-    .Search {
-        margin-top: 24px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}

@@ -78,6 +78,7 @@ span.price {
     align-items: center;
     padding: 12px 24px;
     gap: 10px;
+    cursor: pointer;
 }
 
 .OrderSummary .continue {
@@ -103,4 +104,11 @@ span.price {
     align-items: center;
     padding: 12px 24px;
     gap: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:1100px) {
+    .OrderSummary {
+        margin-top: 48px;
+    }
 }

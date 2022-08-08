@@ -13,18 +13,11 @@
     margin-left: 12px;
 }
 
-.SignNCart .SignIn,
-.SignNCart .Cart {
+.SignIn, .Cart {
     display: flex;
     align-items: center;
-    cursor: pointer;
-    margin-left: 24px;
 }
 
-@media (max-width:1000px) {
-    .SignNCart {
-        margin-top: 24px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.Cart {
+    margin-left: 24px;
 }

@@ -58,6 +58,19 @@
     margin-bottom: 16px;
 }
 
+.Product-qty select {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #091625;
+    margin-bottom: 0;
+    border: unset;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .Product-pack {
     font-family: 'Open Sans';
     font-style: normal;
@@ -81,6 +94,10 @@ span.list-point {
     display: flex;
 }
 
+.actions-single {
+    cursor: pointer;
+}
+
 .actions-edit {
     font-family: 'Open Sans';
     font-style: normal;
@@ -90,6 +107,7 @@ span.list-point {
     color: #091625;
     padding-right: 8px;
     border-right: 1px solid gray;
+    cursor: pointer;
 }
 
 .actions-remove {
@@ -100,6 +118,7 @@ span.list-point {
     line-height: 16px;
     color: #091625;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .unit-price {

@@ -31,3 +31,8 @@
         width: 1056px;
     }
 }
+@media (max-width:1100px) {
+    .Shopping .Cart {
+        width: 100%;
+    }
+}

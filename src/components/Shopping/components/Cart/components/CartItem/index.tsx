@@ -1,19 +1,13 @@
 import React from 'react';
 import './index.css';
 
-// interface CartItem {
-//     name: string;
-//     qty: number;
-//     pack: Array<string>;
-// }
-
-
-
 type MyProps = {
     item: { [key: string]: any };
+    editQty: any;
+    removeItem: any;
 }
 
-function CartItem({ item }: MyProps) {
+function CartItem({ item, editQty, removeItem }: MyProps) {
 
     return (
         <li key={item.name}>
@@ -26,7 +20,14 @@ function CartItem({ item }: MyProps) {
                 </div>
                 <div className="Product-description">
                     <div className="Product-name">{item.name}</div>
-                    <div className="Product-qty">Quantity: {item.qty}</div>
+                    <div className="Product-qty">Quantity:
+                    <select value={item.qty} onChange={(event)=>editQty(item.name,event)}>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                        </select></div>
                     <div className="Product-pack">
                         <ul>
                             {item.pack.map((i: { name: string; description: string; }) => (<li><span className='list-point'>•</span>{i.name} <span className='product-description'>{i.description}</span></li>))}
@@ -36,10 +37,10 @@ function CartItem({ item }: MyProps) {
                         {item.pack.length > 0 ? (
                             <div className="actions-pack">
                                 <div className="actions-edit">Edit pack</div>
-                                <div className="actions-remove">Remove</div>
+                                <div className="actions-remove" onClick={()=>removeItem(item.name)}>Remove</div>
                             </div>
                         ) : (
-                            <div className="actions-single">
+                            <div className="actions-single" onClick={()=>removeItem(item.name)} >
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M7 7H5V13H7V7Z" fill="#091625" />
                                     <path d="M11 7H9V13H11V7Z" fill="#091625" />
@@ -51,8 +52,8 @@ function CartItem({ item }: MyProps) {
                     </div>
                 </div>
                 <div className="Product-price">
-                    <div className="unit-price">${item.price}</div>
-                    <div className="total-price">Total: ${item.price * item.qty}</div>
+                    <div className="unit-price">${item.price.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')}</div>
+                    <div className="total-price">Total: ${(item.price * item.qty).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')}</div>
                 </div>
             </div>
         </li>
